@@ -1,0 +1,62 @@
+    1  python3 -m venv .venv
+    2  source .venv/bin/activate
+    3  pip install --upgrate pip
+    4  pip install --upgrade pip
+    5  deactivate
+    6  source .venv/bin/activate
+    7  pip install numpy
+    8  pipx run cosway -t "venvs are the foo\"
+    9  "
+   10  pipx run cosway -t "venvs are the foo\"
+   11  pipx run cosway -t "venvs are the foo\"
+   12  pipx run cowsay -t "venvs are the foo\""
+   13  pipx. h
+   14  pipx h
+   15  pipx -h
+   16  pipx run cowsay -t "venvs are the foo\""
+   17  python
+   18  mkdir -p src/example_package_example_package_lish tests docs
+   19  touch src/example_package_example_package_lish/__init__.py
+   20  touch src/example_package_example_package_lish/rescale.py
+   21  touch pyproject.toml
+   22  pip install --editable .
+   23  python
+   24  pip install --editable .
+   25  python
+   26  touch tests/test_rescale.py
+   27  python
+   28  pytest
+   29  pip install --editable ".[test]"
+   30  pytest
+   31  pip install --editable ".[test]"
+   32  pytest
+   33  python
+   34  python3 -m venv .venv
+   35  . .venv/bin/activate
+   36  pip install --editable ". [test]"
+   37  pip install --editable ".[test]"
+   38  pytest
+   39  python3 -m venv .venv2
+   40  . .venv2/bin/activate
+   41  python3 -m pip install git+https://github.com/LishaRamon/example-package-lish
+   42  python
+   43  deactivate
+   44  . .venv/bin/activate
+   45  pytest
+   46  pipx run build
+   47  pipx run twine check dist/*
+   48  pipx run build
+   49  pipx run twine check dist/*
+   50  tar -tvf dist/example_package_YOUR_USERNAME_HERE-0.1.1.tar.gz
+   51  tar -tvf dist/example_package_lish-0.1.1.tar.gz
+   52  pipx run build
+   53  pipx run twine check dist/*
+   54  pipx run twine upload -r testpypi dist/*
+   55  pipx run build
+   56  pipx run twine check dist/*
+   57  pipx run twine upload -r testpypi dist/*
+   58  unzip dist/example_package_lish-0.1.1-py3-none-any.whl 
+   59  source .venv/bin/activate
+   60  pip show numpy
+   61  history
+   62  history >package_distribution
