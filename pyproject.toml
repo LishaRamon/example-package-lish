@@ -1,15 +1,32 @@
-# contents of pyproject.toml
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
 name = "example-package-lish"
-version = "0.1.0"
+dynamic = ["version"]
 dependencies = [
   "numpy"
+]
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Private :: Do Not Upload",
 ]
 
 [project.optional-dependencies]
 test = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://LishaRamon.github.io/example-package-lish"
+"Source Code" = "https://github.com/LishaRamon/example-package-lish"
+
+[tool.hatch]
+version.path = "src/example_package_lish/__init__.py"
