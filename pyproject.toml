@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example-package-lish"
-dynamic = ["version"]
+version = "0.1.1"
 dependencies = [
   "numpy"
 ]
@@ -27,6 +27,3 @@ test = ["pytest"]
 [project.urls]
 "Homepage" = "https://LishaRamon.github.io/example-package-lish"
 "Source Code" = "https://github.com/LishaRamon/example-package-lish"
-
-[tool.hatch]
-version.path = "src/example_package_lish/__init__.py"
